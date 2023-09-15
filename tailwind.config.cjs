@@ -11,9 +11,9 @@ const config = {
 	    'maximal': '#121313',
 	    'medium': '#758BFD', 
 	    'minimal': '#08FFD0',
-	    'success': '#00FF55',
-	    'information': '#B6EDFF',
-	    'warning': '#F9C74F',
+	    'sv': '#00FF55',
+	    'iv': '#B6EDFF',
+	    'wv': '#F9C74F',
 	    // Colors for text scheme
 	    'highlight': '#F6F6F6',
 	    'onmaximal': '#F6F6F6',
@@ -21,20 +21,27 @@ const config = {
 	    'onminimal': '#001B2E',
 	  },
 	  fontFamily: {
-	    'highlight': 'xxx',
-	    'default': 'xxx',
+	    'highlight': 'Black Ops One',
+	    'header': 'Unbonded',
+	    'default': 'Overpass'
+
 	  },
 	  extend: {
 	    spacing: {
-	      '1': '0.5rem',
-	      '2': '1rem',
-	      '3': '1.5rem',
+	      // Systematic
+	      'ss': '0.5rem',
+	      'ms': '1rem',
+	      'ls': '1.5rem',
+	      // For body and blocks limits 
 	      'maximalp': '2rem',
 	      'maximalm': '3rem',
 	      'mediump': '4rem',
 	      'mediumm': '2rem',
+	      // For text spacing if necessary
 	      'tbp1': '1rem',
 	      'tbp2': '2rem'
+	      
+	      
 	    },
 	   borderRadius: {
 	     'default': '0% 30% 0% 30%',
