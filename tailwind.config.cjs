@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config}*/
 
 const sira = require('@sira-ui/tailwind')
+const tailanim = require('tailwindcss-animated')
 
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -21,12 +22,31 @@ const config = {
 	    'onminimal': '#001B2E',
 	  },
 	  fontFamily: {
-	    'highlight': 'Black Ops One',
-	    'header': 'Unbonded',
-	    'default': 'Overpass'
+	    'highlight': 'Monoton, serif',
+	    'header': 'Audiowide, monospace',
+	    'default': 'Fragment Mono, monospace'
 
 	  },
+	  screens: {
+      'sm': '450',
+      // => @media (min-width: 375px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
 	  extend: {
+	    dropShadow: {
+	      'logo': '0 0 2px white'
+	    },
 	    spacing: {
 	      // Systematic
 	      'ss': '0.5rem',
@@ -50,7 +70,8 @@ const config = {
 	},
 	
 	plugins: [
-	  sira({excludedThemes: ['dark', 'light', 'whateverTheme']})
+	  sira({excludedThemes: ['dark', 'light', 'whateverTheme']}),
+	  tailanim
 	]
 }
 module.exports = config;

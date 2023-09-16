@@ -8,11 +8,11 @@
 
 <main>
   <section class="flex flex-col justify-start items-center m-tbp2 mb-ls ">
-    <div class="text-center">
-      <h1 class="font-bold font-header text-4xl">Com a <span class="font-highlight font-light" >CREASTATIC</span> você poderá alcançar resuldados  <span class="font-highlight font-light" >SURPREENDENTES</span> em seus  <span class="font-highlight font-light" >WEBSITES ESTÁTICOS</span></h1>
-      <p class="py-tbp1 text-2xl" >Não é porquê um website é estático que ele não precisa ser profissional não é mesmo. É aí que surge a creastatic para criar websites de ultima linha com uma equipe capacitada para isso. </p>
+    <div class="text-center bg-fixed bg-gradient-to-b from-medium mb-tbp2 via-maximal to-maximal from-20% via-25% to-60% p-tbp2 rounded-b-xl animate-pulse animate-once animate-duration-10000 animate-delay-1000 animate-ease-in-out">
+      <h1 class="font-bold  font-header text-3xl">Com a <span class="font-highlight font-light" >CREASTATIC</span> você poderá alcançar resuldados  <span class="font-highlight font-light" >SURPREENDENTES</span> em seus  <span class="font-highlight font-light" >WEBSITES ESTÁTICOS</span></h1>
+      <p class="pt-tbp1 text-1xl " >Não é porquê um website é estático que ele não precisa ser profissional não é mesmo. É aí que surge a creastatic para criar websites de ultima linha com uma equipe capacitada para isso. </p>
     </div>
-    <div class="my-tbp2">
+    <div class="mb-tbp2 mb-ls">
       <ul class="flex flex-col items-start gap-5" >
        <li class="flex text-sv items-center justify-center gap-5"> <CheckSquareIcon class="" size="40" /> <span>Pague até 30x menos do que o casual, e obtenha um site bem melhor do que os tradicionais</span></li>
         <li class="flex text-sv items-center justify-center gap-5"> <CheckSquareIcon class="" size="40"  /> <span>Adquira serviços gratuitos a partir da etapa de negociação, compre + por um valor menor </span></li>
@@ -22,7 +22,7 @@
       </ul>
     </div>
   </section>
-  <section class="mt-ls p-ls">
+  <section class="mt-ls p-ls mt-tbp2">
     	<div 
     	class="relative h-0 overflow-hidden max-w-full w-full" 
    		style="padding-bottom: 56.25%"
@@ -38,5 +38,4 @@
 	<ChevronsUpIcon class="text-center mx-auto mt-5"  size="40"  />
 	<h2 class="text-center text-3xl py-tbp1">NADA MELHOR DO QUE UMA INTRODUÇÃO A NOSSOS SERVIÇOS</h2>
   </section>
-  
 </main>
