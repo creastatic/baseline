@@ -11,7 +11,7 @@
     <div class="p-px w-full bg-onmaximal rounded-r-full">
     </div>
     <div class="absolute flex gap-3 bottom-0 m-tbp2">
-    <a target="_blank" class="hover:animate-jump hover:animate-once hover:animate-duration-50 hover:animate-delay-0"  href="https://presentation.creastatic.tech">
+    <a target="_blank" class="hover:animate-jump hover:animate-once hover:animate-duration-50 hover:animate-delay-0"  href="">
       <LinkRecurrence>
         <span>sobre</span>
       </LinkRecurrence>
