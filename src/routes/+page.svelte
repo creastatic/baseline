@@ -9,7 +9,10 @@
 <main>
   <section class="flex flex-col justify-start items-center my-tbp2 mb-ls ">
     <div
-      class="text-center bg-fixed bg-gradient-to-b from-medium mb-tbp2 via-maximal to-maximal from-20% via-25% to-60% p-tbp2 rounded-b-xl animate-pulse animate-once animate-duration-10000 animate-delay-1000 animate-ease-in-out">
+      class="text-center bg-fixed bg-gradient-to-b from-medium mb-tbp2
+      via-maximal to-maximal from-20% via-25% to-60% p-tbp2 rounded-b-xl
+      animate-pulse animate-once animate-duration-10000 animate-delay-1000
+      animate-ease-in-out">
       <h1 class="font-bold  font-header text-3xl">Com a <span class="font-highlight font-light">CREASTATIC</span> você
         poderá alcançar resuldados <span class="font-highlight font-light">SURPREENDENTES</span> em seus <span
           class="font-highlight font-light">WEBSITES ESTÁTICOS</span></h1>
@@ -58,7 +61,19 @@
       <label id="aboutcreastatic" class="title">SOBRE A CREASTATIC</label>
       <div id="aboutcreastatic" class="content">
         <div class="min-h-0">
-          <p>A CREASTATIC é nada mais nada menos que uma INDENTIDADE VISUAL que Eu utilizo para vender algum serviço em tráfego orgânico, em outras palavras, por traz desta INDENTIDADE VISUAL há um Desenvolvedor Freelancer que optou por não utilizar a si mesmo como INDENTIDADE VISUAl para web, mas preferiu usar um nome específico que faria mais sentido para vendas no mundo web. Se quiser saber mais sobre mim, por favor visite o meu perfil no github ou na upWork que são minhas principais redes de informação, links disponíveis no rodapé deste website. A CREASTATIC não é uma empresa, quem vende não é a CREASTATIC mas sim um Profissional Freelancer. Não abordarei muito sobre mim neste website, já que tenho uma INDENTIDADE VISUAl expressiva por aqui. Se quiser saber mais sobre este Desenvolvedor por traz disso tudo, visite o meu portfólio ou acesse minhas redes, ambos disponíveis no rodapé deste website.</p>
+          <p>A CREASTATIC é um projeto BETA que está passando por fase de teste,
+          por isso você poderá notar que não estamos totalmente desenvolvidos em
+          muitos aspectos. Por isso estamos iniciando nossos serviços de uma
+          forma descentralizada e diferente. Nosso foco é o E-business (Negócio
+          Eletrônico) em que entregamos um serviço simples inicialmente para
+          entregar serviços mais avançados com o passar do tempo. Somos poucos
+          funcionarios para atender a tais serviços oferecidos, então não
+          estamos 100% legalizados ainda, isso não te impede de forma alguma de
+          adquirir produtos de pouca demanda. Na verdade, somos apenas uma pequena equipe
+          colaboradora que realiza atividades de Desenvolvimento Web de forma
+          incrivelmente responsável, você pode entrar em contato conosco atravéz
+          do rodapé deste Website para saber ainda mais acesse nossa página de
+        <a class="text-minimal" href="https://presentation.creastatic.tech">apresentação</a></p>
         </div>
       </div>
     </div>
@@ -66,16 +81,20 @@
       <label class="title">COMO COMPRAR</label>
       <div class="content">
         <div class="min-h-0">
-          <p>Para comprar qualquer serviço vendido por mim, primeiro tente acessar a página de <a class="text-minimal" href="#">catálogo</a> e depois siga as intruções inseridas lá. Caso queira negociar ou fazer uma parceiria, entre em contato pelas minhas redes de comunicação.</p>
+          <p>Para comprar qualquer serviço oferecido, primeiro tente acessar a
+          página de <a class="text-minimal"
+          href="https://catalogue.creastatic.tech">catálogo</a> e depois siga
+          as intruções inseridas lá. Caso queira negociar ou fazer uma
+          parceiria, entre em contato pelas nossas redes de comunicação.</p>
         </div>
       </div>
     </div>
   </section>
 </main>
-<footer class="px-5 flex justify-center items-center bg-medium mt-ls mt-20 rounded-b-xl">
-  <div class="popover bg-minimal my-20">
+<footer class="px-5 py-5 flex justify-center flex-wrap items-center bg-medium mt-ls mt-20 rounded-b-xl">
+  <div class="popover bg- my-10">
 		<label class="trigger rounded-b-xl btn" tabindex="0">
-			<p class="text-onminimal m-tbp1">Contate-nos</p>
+			<p class="text-onminimal m-tbp1 border border-8 border-double rounded-full bg-minimal text-onminimal p-ss font-bold">Contate-nos</p>
 		</label>
 		<div class="content top-center mb-10" tabindex="0">
 			<div class="arrow" />
@@ -89,5 +108,26 @@
 			  </ul>
 			</div>
 		</div>
+	</div>
+	<div class="flex justify-center items-center">
+		  <ul class="text-center gap-ss flex flex-col  justify-center
+		  items-center">
+			    <li class="text-center my-auto w-full flex items-center justify-center">
+			      <LinkRecurrence>
+			        <a target="_blank" class="" href="#">Apresentação</a>
+			      </LinkRecurrence>
+			    </li>
+						    <li class="text-center my-auto w-full flex items-center justify-center">
+			      <LinkRecurrence>
+			        <a target="_blank" class="" href="#">Possíveis Dúvidas</a>
+			      </LinkRecurrence>
+			    </li>
+						    <li class="text-center my-auto w-full flex items-center justify-center">
+			      <LinkRecurrence>
+			        <a target="_blank" class="" href="#">Catálogo</a>
+			      </LinkRecurrence>
+			    </li>
+			  </ul>
+	
 	</div>
 </footer>
